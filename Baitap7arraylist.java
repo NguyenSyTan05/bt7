@@ -7,7 +7,7 @@ import java.util.Collections;
 public class Baitap7arraylist {
 
     public static void main(String[] args) {
-        // 1. Tạo và Thêm Phần Tử vào ArrayList
+      
         ArrayList<String> friends = new ArrayList<>();
         friends.add("Nam");
         friends.add("Tan");
@@ -16,7 +16,7 @@ public class Baitap7arraylist {
         friends.add("Nhi");
         System.out.println("Danh sach ban be: " + friends);
 
-        // 2. Xóa một phần tử khỏi ArrayList
+        
         ArrayList<Integer> numbers = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
             numbers.add(i);
@@ -24,7 +24,7 @@ public class Baitap7arraylist {
         numbers.remove(Integer.valueOf(5));
         System.out.println("Danh sach sau khi xoa so 5: " + numbers);
 
-        // 3. Duyệt qua ArrayList
+      
         ArrayList<String> cities = new ArrayList<>();
         cities.add("Ha Noi");
         cities.add("Da Nang");
@@ -36,7 +36,6 @@ public class Baitap7arraylist {
             System.out.println(city);
         }
 
-        // 4. Tìm kiếm một phần tử trong ArrayList
         ArrayList<String> keywords = new ArrayList<>();
         keywords.add("Java");
         keywords.add("Python");
@@ -45,15 +44,15 @@ public class Baitap7arraylist {
         boolean containsPython = keywords.contains("Python");
         System.out.println("Danh sach co chua 'Python': " + containsPython);
 
-        // 5. Cập nhật một phần tử trong ArrayList
+     
         ArrayList<Integer> numbersToUpdate = new ArrayList<>();
         for (int i = 1; i <= 5; i++) {
             numbersToUpdate.add(i);
         }
-        numbersToUpdate.set(2, 100); // cập nhật phần tử thứ 3 (index 2) thành 100
+        numbersToUpdate.set(2, 100); 
         System.out.println("Danh sach sau khi cap nhat phan tu thu 3: " + numbersToUpdate);
 
-        // 6. Sắp xếp ArrayList
+        
         ArrayList<Integer> numbersToSort = new ArrayList<>();
         numbersToSort.add(5);
         numbersToSort.add(3);
@@ -63,7 +62,6 @@ public class Baitap7arraylist {
         Collections.sort(numbersToSort);
         System.out.println("Danh sach sau khi sap xep: " + numbersToSort);
 
-        // 7. Chuyển đổi ArrayList thành Array
         ArrayList<Integer> arrayListToConvert = new ArrayList<>();
         arrayListToConvert.add(10);
         arrayListToConvert.add(20);
@@ -78,5 +76,5 @@ public class Baitap7arraylist {
         }
     }
 }
- /**
+ 
   
